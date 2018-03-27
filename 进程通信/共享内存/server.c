@@ -5,7 +5,7 @@
   > Created Time: 2018年03月27日 星期二 14时56分25秒
  ************************************************************************/
 
-#include"shared_men.h"
+#include"shared_mem.h"
 #include<unistd.h>
 
 int main()

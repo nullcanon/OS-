@@ -1,10 +1,10 @@
 .PHONY:all
 all:client server
 
-client:client.c shared_men.c 
+client:client.c shared_mem.c 
 	gcc -o $@ $^
 
-server:server.c shared_men.c
+server:server.c shared_mem.c
 	gcc -o $@ $^
 
 .PHONY:clean
